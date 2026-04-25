@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>She Stayed for the Kids | Bradley Hobbs</title>
+
+<style>
+:root {
+    --bg-main: #2C3440;
+    --bg-light: #F4F1EA;
+    --accent: #C89B3C;
+    --accent-soft: #E2BC6B;
+    --text-dark: #2A2A2A;
+    --text-muted: #6B6B6B;
+}
+
+/* BASE */
+body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    background: var(--bg-main);
+    color: var(--text-dark);
+}
+
+/* HERO */
+.hero {
+    height: 70vh;
+    background: linear-gradient(rgba(44,52,64,0.7), rgba(44,52,64,0.85)),
+                url('your-banner-image.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+    color: var(--accent-soft);
+    letter-spacing: 1px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #E0E0E0;
+}
+
+/* SECTION */
+.section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* CARD */
+.card {
+    background: var(--bg-light);
+    border-radius: 16px;
+    padding: 35px;
+    margin-top: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* HEADINGS */
+h2 {
+    text-align: center;
+    color: var(--accent);
+    margin-bottom: 20px;
+}
+
+/* TEXT */
+p {
+    line-height: 1.7;
+    color: var(--text-muted);
+    text-align: center;
+}
+
+/* QUOTE */
+.quote {
+    font-style: italic;
+    color: var(--accent);
+    margin-top: 20px;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 28px;
+    border-radius: 30px;
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: var(--accent-soft);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 25px;
+    font-size: 0.9rem;
+    color: #CFCFCF;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>She Stayed for the Kids</h1>
+        <p>A classroom that never changed. Only the people did.</p>
+    </div>
+</section>
+
+<!-- STORY -->
+<section class="section">
+    <div class="card">
+        <h2>The Story</h2>
+        <p>
+            The room never settles.  
+            The schedule slips.  
+            Structure appears, then disappears just as quickly.
+        </p>
+        <p>
+            Teachers come in ready.  
+            Some leave. Some are removed.  
+            Some stay longer than they should.
+        </p>
+        <p>
+            Each one carries the same reason.  
+            She stayed for the kids.
+        </p>
+        <p class="quote">
+            “The room didn’t change. The people did.”
+        </p>
+    </div>
+</section>
+
+<!-- CLASSROOM -->
+<section class="section">
+    <div class="card">
+        <h2>The Classroom</h2>
+        <p>
+            One assistant is worn down from carrying too much.  
+            One lead teacher struggles to hold a role without support.  
+            One new assistant walks in confident, then slowly understands.
+        </p>
+        <p>
+            Others were already here. Others have already left.  
+            Another is preparing to step into what remains.
+        </p>
+        <p>
+            And one sees clearly what works… but is never placed where it matters.
+        </p>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="section">
+    <div class="card" style="text-align:center;">
+        <h2>Coming Soon</h2>
+        <p>
+            A story that reflects what many have experienced, but few have said aloud.
+        </p>
+        <a href="#" class="btn">Read Chapter One</a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    © 2026 Bradley Hobbs | Author
+</footer>
+
+</body>
+</html>
