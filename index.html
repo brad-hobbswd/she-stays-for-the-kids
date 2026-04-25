@@ -24,30 +24,24 @@ body {
     color: var(--text-dark);
 }
 
-/* HERO */
+/* HERO (FIXED) */
 .hero {
     padding: 20px 15px 0;
     text-align: center;
 }
 
-/* BANNER WRAP */
-.banner-wrap {
-    max-width: 800px;
-    margin: auto;
-    background: var(--bg-light);
-    padding: 10px;
-    border-radius: 14px;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
-}
-
 /* BANNER */
 .banner {
     width: 100%;
-    border-radius: 10px;
+    max-width: 800px;
+    border-radius: 14px;
     display: block;
+    margin: auto;
 
-    /* subtle glow */
-    box-shadow: 0 0 15px rgba(200,155,60,0.25);
+    /* GLOW */
+    box-shadow:
+        0 0 25px rgba(200,155,60,0.45),
+        0 0 60px rgba(200,155,60,0.25);
 }
 
 /* TAGLINE */
@@ -121,11 +115,8 @@ footer {
 <!-- HERO -->
 <section class="hero">
 
-    <div class="banner-wrap">
-        <img src="banner.png" alt="She Stayed for the Kids Banner" class="banner">
-    </div>
+    <img src="banner.png" alt="She Stayed for the Kids Banner" class="banner">
 
-    <!-- ONLY CHANGE: removed repeated title -->
     <p class="tagline">Not every classroom is what it appears to be.</p>
 
 </section>
