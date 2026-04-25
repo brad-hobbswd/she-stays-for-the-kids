@@ -24,11 +24,10 @@ body {
     color: var(--text-dark);
 }
 
-/* HERO (FIXED) */
+/* HERO */
 .hero {
-    padding: 20px 15px 0;
+    padding: 25px 15px 0;
     text-align: center;
-    padding-top: 25px;
 }
 
 /* BANNER */
@@ -39,11 +38,9 @@ body {
     display: block;
     margin: auto;
 
-    /* GLOW */
     box-shadow:
         0 0 25px rgba(200,155,60,0.45),
         0 0 60px rgba(200,155,60,0.25);
-    margin-bottom: 0;
 }
 
 /* TAGLINE */
@@ -60,11 +57,17 @@ body {
     letter-spacing: 0.3px;
 }
 
-/* SECTION */
+/* SECTION (FIXED + DIVIDER BUILT IN) */
 .section {
-    padding: 30px 15px;
+    padding: 25px 15px 12px; /* tight spacing */
     max-width: 800px;
     margin: auto;
+    border-bottom: 1px solid rgba(255,255,255,0.08); /* subtle divider */
+}
+
+/* REMOVE LAST DIVIDER */
+.section:last-of-type {
+    border-bottom: none;
 }
 
 /* CARD */
@@ -72,7 +75,7 @@ body {
     background: var(--bg-light);
     border-radius: 14px;
     padding: 25px;
-    margin-top: 15px;
+    margin-top: 8px;
     box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 }
 
@@ -116,18 +119,6 @@ footer {
     font-size: 0.85rem;
     color: #CFCFCF;
 }
-
-    .section {
-    padding: 30px 15px 20px; /* slightly less bottom space */
-    max-width: 800px;
-    margin: auto;
-    border-bottom: 1px solid rgba(255,255,255,0.08); /* subtle line */
-}
-
-    .section:last-of-type {
-    border-bottom: none;
-}
-    
 </style>
 </head>
 
