@@ -26,74 +26,72 @@ body {
 
 /* HERO */
 .hero {
-    height: 70vh;
+    height: 55vh;
     background: linear-gradient(rgba(44,52,64,0.7), rgba(44,52,64,0.85)),
-                url('your-banner-image.jpg');
+                url('banner.png');
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 20px;
-}
-
-.hero-content {
-    max-width: 800px;
-    color: #fff;
+    padding: 10px;
 }
 
 .hero h1 {
-    font-size: 3.2rem;
-    margin-bottom: 15px;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
     color: var(--accent-soft);
 }
 
 .hero p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: #E0E0E0;
+    margin: 0;
 }
 
 /* SECTION */
 .section {
-    padding: 60px 20px;
-    max-width: 900px;
+    padding: 30px 15px;
+    max-width: 800px;
     margin: auto;
 }
 
 /* CARD */
 .card {
     background: var(--bg-light);
-    border-radius: 16px;
-    padding: 35px;
-    margin-top: 30px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    border-radius: 14px;
+    padding: 25px;
+    margin-top: 15px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 }
 
 /* HEADINGS */
 h2 {
     text-align: center;
     color: var(--accent);
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 /* TEXT */
 p {
-    line-height: 1.7;
+    line-height: 1.6;
     color: var(--text-muted);
     text-align: center;
+    margin-bottom: 12px;
 }
 
 /* BUTTONS */
 .btn {
     display: inline-block;
-    margin: 12px;
-    padding: 12px 28px;
-    border-radius: 30px;
+    margin: 6px;
+    padding: 10px 22px;
+    border-radius: 25px;
     background: var(--accent);
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    font-size: 0.95rem;
     transition: 0.3s;
 }
 
@@ -104,8 +102,8 @@ p {
 /* FOOTER */
 footer {
     text-align: center;
-    padding: 25px;
-    font-size: 0.9rem;
+    padding: 15px;
+    font-size: 0.85rem;
     color: #CFCFCF;
 }
 </style>
@@ -115,37 +113,33 @@ footer {
 
 <!-- HERO -->
 <section class="hero">
-    <div class="hero-content">
+    <div>
         <h1>She Stayed for the Kids</h1>
         <p>Not every classroom is what it appears to be.</p>
     </div>
 </section>
 
-<!-- INTRO CARD -->
+<!-- INTRO -->
 <section class="section">
     <div class="card">
-        <h2>Begin the Story</h2>
+        <h2>Begin</h2>
         <p>
             A classroom shaped by inconsistency.  
             A pattern that does not break.  
-            A story that unfolds through those who remain, those who leave, and those who begin to understand.
+            A story revealed through those who remain and those who understand.
         </p>
 
         <div style="text-align:center;">
-            <a href="intro.html" class="btn">Read Introduction</a>
-            <a href="content.html" class="btn">View Contents</a>
+            <a href="intro.html" class="btn">Introduction</a>
+            <a href="content.html" class="btn">Contents</a>
         </div>
     </div>
 </section>
 
-<!-- BOOK STRUCTURE -->
+<!-- ACTS -->
 <section class="section">
     <div class="card">
         <h2>The Book</h2>
-        <p>
-            Told in four parts, this story follows a classroom that does not change, even as the people within it do.
-        </p>
-
         <div style="text-align:center;">
             <a href="act1.html" class="btn">Act I</a>
             <a href="act2.html" class="btn">Act II</a>
@@ -155,24 +149,19 @@ footer {
     </div>
 </section>
 
-<!-- CLOSING -->
+<!-- END -->
 <section class="section">
     <div class="card">
         <h2>Closing</h2>
-        <p>
-            A reflection on what remains when effort meets a system that does not hold.
-        </p>
-
         <div style="text-align:center;">
-            <a href="conclusion.html" class="btn">Read Conclusion</a>
-            <a href="about.html" class="btn">About the Author</a>
+            <a href="conclusion.html" class="btn">Conclusion</a>
+            <a href="about.html" class="btn">About</a>
         </div>
     </div>
 </section>
 
-<!-- FOOTER -->
 <footer>
-    © 2026 Bradley Hobbs | Author
+    © 2026 Bradley Hobbs
 </footer>
 
 </body>
